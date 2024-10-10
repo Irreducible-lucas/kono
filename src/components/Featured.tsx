@@ -4,7 +4,7 @@ import FeaturedCard from "./FeaturedCard";
 
 const Featured = () => {
   return (
-    <section className="mx-5 lg:mx-0 py-[40px] px-[40px] lg:px-[20px] lg:py-[40px] border-[1px]  border-lightgrey my-10 ">
+    <section className="mx-5 lg:mx-10 py-[40px] px-[40px] lg:px-[20px] lg:py-[40px] border-[1px]  border-lightgrey my-10 ">
       <h2 className={`${styles.heading3} py-1 px-2 bg-black text-white`}>
         Featured Development Projects
       </h2>

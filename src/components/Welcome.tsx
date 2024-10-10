@@ -3,7 +3,7 @@ import styles from "../styles";
 
 const Welcome = () => {
   return (
-    <section className=" mx-5 lg:mx-0 py-[40px] px-[40px] lg:px-6 lg:py-[40px] border-[1px] border-lightgrey my-10 ">
+    <section className=" mx-5 lg:mx-10 py-[40px] px-[40px] lg:px-6 lg:py-[40px] border-[1px] border-lightgrey my-10 ">
       <h1 className={`${styles.heading1} text-center mb-10 `}>
         Message From the District Chairman
       </h1>

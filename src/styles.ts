@@ -42,7 +42,7 @@ export const styles = {
 };
 
 export const layout = {
-  section: `relative bg-yellow-100 bg-cover bg-center bg-fixed  bg-[url('/path/to/your/background-image.jpg')] lg:px-10`,
+  section: `lg:px-10`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,

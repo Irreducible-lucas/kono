@@ -1,8 +1,10 @@
 import Nav from "./Nav";
+import NavDisplay from "./NavDisplay";
 
 const Header = () => {
   return (
-    <div className="lg:px-10 bg-white">
+    <div className="bg-white">
+      <NavDisplay />
       <Nav />
     </div>
   );

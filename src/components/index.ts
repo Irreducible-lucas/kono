@@ -11,5 +11,6 @@ export { default as News } from "./News";
 export { default as Footer } from "./Footer";
 export { default as Testimonial } from "./Testimonial";
 export { default as ContactUs } from "./ContactUs";
+export { default as LankMarkImages } from "./LandMarkImages";
 
 

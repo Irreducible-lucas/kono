@@ -1,9 +1,8 @@
 import { Footer, Header } from "../components";
-import { layout } from "../styles";
 
 const AboutUs = () => {
   return (
-    <section className={`${layout.section} `}>
+    <section>
       <Header />
       <Footer />
     </section>

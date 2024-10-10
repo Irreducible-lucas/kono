@@ -2,25 +2,24 @@ import {
   ContactUs,
   FeaturedNews,
   Footer,
+  Header,
   HeroSection,
   News,
   Testimonial,
   Welcome,
 } from "../components";
-import Nav from "../components/Nav";
+import LandMarkImages from "../components/LandMarkImages";
 
 const LandingPage = () => {
   return (
-    <div className="relative bg-yellow-100 bg-cover bg-center bg-fixed  bg-[url('/path/to/your/background-image.jpg')] lg:px-10">
-      <div className="lg:px-10 bg-white">
-        <Nav />
-        {/* <NavBar /> */}
-        <HeroSection />
-        <Welcome />
-        <FeaturedNews />
-        <News />
-        <Testimonial />
-      </div>
+    <div className="bg-white">
+      <Header />
+      <HeroSection />
+      <LandMarkImages />
+      <Welcome />
+      <FeaturedNews />
+      <News />
+      <Testimonial />
       <ContactUs />
       <Footer />
     </div>
