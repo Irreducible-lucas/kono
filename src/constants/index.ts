@@ -22,9 +22,10 @@ import {
 import {
   Link,
   ProgramCardProps,
-  FeaturedsWriteUp,
-  Newsletter,
   Review,
+  FeaturedsDevelopment,
+  FeaturedTypes,
+  News,
 } from "../types";
 
 export const links: Link[] = [
@@ -130,11 +131,11 @@ export const ProgramCards: ProgramCardProps[] = [
   },
 ];
 
-export const Newsletters: Newsletter[] = [
+export const New: News[] = [
   {
     id: 1,
     date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
+    desc: "....Governor of Lagos State.....",
     title: "Healthcare Facility Improvements",
     image: NewsImage1,
     url: "https://sendsierraleone.com/documents/2022NEWSLETTER.pdf",
@@ -142,7 +143,7 @@ export const Newsletters: Newsletter[] = [
   {
     id: 2,
     date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
+    desc: ".....Governor of Lagos State.....",
     title: "Infrastructure Upgrades",
     image: NewsImage2,
     url: "https://sendsierraleone.com/documents/Nyapuischoolbrochure.pdf",
@@ -150,7 +151,7 @@ export const Newsletters: Newsletter[] = [
   {
     id: 3,
     date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
+    desc: "....Governor of Lagos State.....",
     title: "Second Quarter Newsletter 2021. RESILIENCE THROUGH EMPOWERMENT",
     image: NewsImage3,
     url: "https://sendsierraleone.com/documents/Resiliance%20through%20Empowerment%20(Online).pdf",
@@ -158,7 +159,7 @@ export const Newsletters: Newsletter[] = [
   {
     id: 4,
     date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
+    desc: "....Governor of Lagos State.....",
     title: "Second Quarter Newsletter 2020. SURVIVING THROUGH COVID-19",
     image: NewsImage4,
     url: "https://sendsierraleone.com/documents/newsletter%202nd%20qta%20(update).pdf",
@@ -166,7 +167,7 @@ export const Newsletters: Newsletter[] = [
   {
     id: 5,
     date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
+    desc: "....Governor of Lagos State.....",
     title: "First Quarter Newsletter 2020, MAKING A CHANGE IN DIFFICULT TIMES.",
     image: NewsImage5,
     url: "https://sendsierraleone.com/documents/SEND%20Sierra%20Leone%201st%20Newsletter%202020.pdf",
@@ -174,7 +175,7 @@ export const Newsletters: Newsletter[] = [
   {
     id: 6,
     date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
+    desc: "....Governor of Lagos State.....",
     title:
       "April 2020 Newsletter, Debunking Things Believed to be True about the Corona Virus.",
     image: NewsImage6,
@@ -232,51 +233,39 @@ export const Newsletters: Newsletter[] = [
     url: "https://sendsierraleone.com/documents/Mid-Year%20Newsletter%2024.pdf",
   },
 ];
-export const FeaturedWriteUp: FeaturedsWriteUp[] = [
+export const FeaturedDevelopments: FeaturedsDevelopment[] = [
   {
     id: 1,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title: "NEWSLETTER 2022-IMPACTING TODAY FOR A BETTER TOMORROW",
-    image: NewsImage1,
+    image: NewsImage6,
     url: "https://sendsierraleone.com/documents/2022NEWSLETTER.pdf",
   },
   {
     id: 2,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title: "Nyapui Senior Secondary School of Excellence Brochure",
-    image: NewsImage2,
+    image: NewsImage6,
     url: "https://sendsierraleone.com/documents/Nyapuischoolbrochure.pdf",
   },
   {
     id: 3,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title: "Second Quarter Newsletter 2021. RESILIENCE THROUGH EMPOWERMENT",
-    image: NewsImage3,
+    image: NewsImage6,
     url: "https://sendsierraleone.com/documents/Resiliance%20through%20Empowerment%20(Online).pdf",
   },
   {
     id: 4,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title: "Second Quarter Newsletter 2020. SURVIVING THROUGH COVID-19",
-    image: NewsImage4,
+    image: NewsImage6,
     url: "https://sendsierraleone.com/documents/newsletter%202nd%20qta%20(update).pdf",
   },
   {
     id: 5,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title: "First Quarter Newsletter 2020, MAKING A CHANGE IN DIFFICULT TIMES.",
-    image: NewsImage5,
+    image: NewsImage6,
     url: "https://sendsierraleone.com/documents/SEND%20Sierra%20Leone%201st%20Newsletter%202020.pdf",
   },
   {
     id: 6,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title:
       "April 2020 Newsletter, Debunking Things Believed to be True about the Corona Virus.",
     image: NewsImage6,
@@ -284,16 +273,12 @@ export const FeaturedWriteUp: FeaturedsWriteUp[] = [
   },
   {
     id: 7,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title: "April 2020 Newsletter, Sensitization Manual on COVID-19 Pandemic",
     image: NewsImage7,
     url: "https://sendsierraleone.com/documents/corona.pdf",
   },
   {
     id: 8,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title:
       "April 2020 Newsletter, NURTURING CHILDREN DURING THE COVID-19 PANDEMIC",
     image: NewsImage8,
@@ -301,8 +286,6 @@ export const FeaturedWriteUp: FeaturedsWriteUp[] = [
   },
   {
     id: 9,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title:
       "March 2020 Newsletter, Statement by HIS EXCELLENCY, DR. JULIUS MAADA BIO",
     image: NewsImage9,
@@ -310,8 +293,6 @@ export const FeaturedWriteUp: FeaturedsWriteUp[] = [
   },
   {
     id: 10,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title:
       "September 2018 Newsletter, Overcoming Social & Cultural Barriers to Political & Economic Empowerment!",
     image: NewsImage10,
@@ -319,18 +300,53 @@ export const FeaturedWriteUp: FeaturedsWriteUp[] = [
   },
   {
     id: 11,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title: "2019 Newsletters, Strengthening SEND and safeguarding staff",
     image: NewsImage11,
     url: "https://sendsierraleone.com/documents/news%20letter%202019.pdf",
   },
   {
     id: 12,
-    date: "10th October, 2024 ",
-    desc: "Governor of Lagos State, Mr. Babajide Sanwo-Olu, flanked by Deputy Governor of Ogun State, Engr. (Mrs) Noimot Salako-Oyedele (right) and the Vice Chancellor,",
     title: "Mid-year Newsletter 2024",
     image: NewsImage12,
     url: "https://sendsierraleone.com/documents/Mid-Year%20Newsletter%2024.pdf",
+  },
+];
+
+export const FeaturedType: FeaturedTypes[] = [
+  {
+    id: 1,
+    title: "All",
+    url: "#",
+  },
+  {
+    id: 2,
+    title: "Aviation",
+    url: "#",
+  },
+  {
+    id: 3,
+    title: "Education",
+    url: "#",
+  },
+  {
+    id: 4,
+    title: "Health",
+    url: "#",
+  },
+  {
+    id: 5,
+    title: "Empowerment",
+    url: "#",
+  },
+  {
+    id: 6,
+    title:
+      "Road",
+      url: "#",
+  },
+  {
+    id: 7,
+    title: "Security",
+    url: "#",
   },
 ];

@@ -1,23 +1,20 @@
-import styles from "../styles";
-import { Newsletters } from "../constants";
-
-import NewCard from "./NewCard";
-
+import { New } from "../constants";
+import styles, { layout } from "../styles";
+import NewsCard from "./NewsCard";
 const News = () => {
   return (
-    <section className="mx-5 lg:mx-10 py-[40px] px-[40px] lg:px-[20px] lg:py-[40px] border-[1px] border-lightgrey my-10">
-      <h2 className={`${styles.heading3}  py-1  px-2 bg-black text-white`}>
-        News
+    <section className={` ${layout.section}`}>
+      <h2 className={`${styles.heading1} text-center pb-3 md:pb-4`}>
+        Latest News
       </h2>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 md:gap-x-10 mt-8">
-        {Newsletters.slice(0, 6).map((news) => (
-          <NewCard
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 md:gap-x-3 mt-3  ">
+        {New.slice(0, 6).map((news) => (
+          <NewsCard
             key={news.id}
             title={news.title}
+            date={news.date}
             image={news.image}
             url={news.url}
-            date={news.date}
             desc={news.desc}
           />
         ))}

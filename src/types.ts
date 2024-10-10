@@ -31,15 +31,18 @@ export interface ServicesCardsProps {
   image: string;
   link_url: string;
 }
-export interface FeaturedsWriteUp {
+export interface FeaturedsDevelopment {
   id: number;
   title: string;
   image: string;
   url: string;
-  desc: string;
-  date: string;
 };
-export interface Newsletter {
+export interface FeaturedTypes {
+  id: number;
+  title: string;
+  url: string;
+};
+export interface News {
   id: number;
   title: string;
   image: string;

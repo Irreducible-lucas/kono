@@ -1,6 +1,6 @@
 import {
   ContactUs,
-  FeaturedNews,
+  FeaturedDevelopment,
   Footer,
   Header,
   HeroSection,
@@ -12,16 +12,18 @@ import LandMarkImages from "../components/LandMarkImages";
 
 const LandingPage = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white ">
       <Header />
-      <HeroSection />
-      <LandMarkImages />
-      <Welcome />
-      <FeaturedNews />
-      <News />
-      <Testimonial />
-      <ContactUs />
-      <Footer />
+      <div className="bg-white">
+        <HeroSection />
+        <LandMarkImages />
+        <Welcome />
+        <FeaturedDevelopment />
+        <News />
+        <Testimonial />
+        <ContactUs />
+        <Footer />
+      </div>
     </div>
   );
 };

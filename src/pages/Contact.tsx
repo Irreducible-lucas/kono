@@ -1,5 +1,5 @@
 import { Footer, Header } from "../components";
-import { layout } from "../styles";
+
 const Contact = () => {
   return (
     <section>
