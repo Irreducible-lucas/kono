@@ -41,13 +41,12 @@ export const links: Link[] = [
     url: "/aboutus",
     child: null,
   },
-  
+
   {
     id: 3,
     text: "Council Services",
     url: "/council-services",
-    child: null
-    
+    child: null,
   },
   {
     id: 4,
@@ -73,35 +72,107 @@ export const links: Link[] = [
     url: "/contact",
     child: null,
   },
-  
+];
+
+export const navLinks = [
+  {
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "aboutus",
+    title: "About Us",
+    hasChildren: true,
+    subNav: [
+      { id: "aboutus", title: "History of Kono" },
+      { id: "structure", title: "Council Structure" },
+      { id: "vision", title: "Vision and Mission" },
+      { id: "profiles", title: "Profiles and pictures " },
+      { id: "chiefdoms", title: "Different Chiefdoms" },
+    ],
+  },
+  {
+    id: "council",
+    title: "Counsil Service",
+    hasChildren: true,
+    subNav: [
+      { id: "health", title: "HealthCare" },
+      { id: "education", title: "Education" },
+      { id: "agriculture", title: "Agriculture and Livelihood" },
+      { id: "infrastructure", title: "Infrastructure" },
+      { id: "environmental", title: "Environmental Services" },
+    ],
+  },
+  {
+    id: "development",
+    title: "Development Project",
+    hasChildren: true,
+    subNav: [
+      { id: "ongoing", title: "Ongoing Projects" },
+      { id: "completed", title: "Completed Projects" },
+      { id: "upcoming", title: "Upcoming Projects" },
+    ],
+  },
+  {
+    id: "reports",
+    title: "Reports and Financials",
+    hasChildren: true,
+    subNav: [
+      { id: "budgets", title: "Annual Budgets" },
+      { id: "updates", title: "Project Reports and Updates" },
+      { id: "funding", title: "Project Funding" },
+      { id: "public", title: "Public Expenditure Reports" },
+    ],
+  },
+  {
+    id: "governance",
+    title: "Governance and Policies",
+    hasChildren: true,
+    subNav: [
+      { id: "policies", title: "Council Policies" },
+      { id: "ordinance", title: "Bylaws and Ordinances" },
+    ],
+  },
+  {
+    id: "contact",
+    title: "Contact Info",
+    hasChildren: true,
+    subNav: [
+      { id: "department", title: "Departmental Contacts" },
+      { id: "feedback", title: "Feedback Forms " },
+      { id: "socia", title: "Social Media Links " },
+    ],
+  },
 ];
 export const reviews: Review[] = [
   {
     image: Rebecca,
-      name: 'Noheem Ayomikun',
-      rating: 4.5,
-      feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    name: "Noheem Ayomikun",
+    rating: 4.5,
+    feedback:
+      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
   },
   {
     image: Ramatu,
-    name: 'Victoria Tosin',
+    name: "Victoria Tosin",
     rating: 4.5,
-    feedback: "Outstanding laptop performance and exceptional service  highly recommend!"
-},
+    feedback:
+      "Outstanding laptop performance and exceptional service  highly recommend!",
+  },
 
   {
     image: Ramatu,
-      name: 'Kabir Olakunle',
-      rating: 4.5,
-      feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+    name: "Kabir Olakunle",
+    rating: 4.5,
+    feedback:
+      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
   },
- 
 ];
 
 export const ProgramCards: ProgramCardProps[] = [
   {
     id: 1,
-      image: SustainableGrowthImage,
+    image: SustainableGrowthImage,
     link_url: "/program-areas/sustainable-growth",
   },
   {
@@ -340,9 +411,8 @@ export const FeaturedType: FeaturedTypes[] = [
   },
   {
     id: 6,
-    title:
-      "Road",
-      url: "#",
+    title: "Road",
+    url: "#",
   },
   {
     id: 7,

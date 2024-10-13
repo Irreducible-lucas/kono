@@ -15,7 +15,13 @@ const HeroSection = () => {
             Working Together for a Stronger, Brighter Future for Kono
           </p>
         </div>
-        <img src={Lillian} width={340} height={180} className="rounded-full" />
+        <img
+          src={Lillian}
+          alt="img"
+          width={340}
+          height={180}
+          className="rounded-full"
+        />
       </div>
     </section>
   );

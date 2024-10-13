@@ -1,11 +1,5 @@
 import { useState } from "react";
-import {
-  Menubar,
-  MenubarContent,
-  MenubarItem,
-  MenubarMenu,
-  MenubarTrigger,
-} from "@/components/ui/menubar";
+import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
 import { NavLink } from "react-router-dom";
 import { links } from "../constants";
 import { SabiLogo } from "../assets";
